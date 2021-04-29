@@ -55,14 +55,18 @@ function convertSource(sourceType) {
     /* GET URL PARAMETER */
     var wholeURL = window.location.search;
     var urlParameters = new URLSearchParams(wholeURL);
-    var directingFile = urlParameters.get("cnt");
+    var directingFile = urlParameters.get("file");
+    var directingFileSrc = urlParameters.get("index");
 
-    if (directingFile == "" || directingFile == null) {
+    if (
+        directingFile == "" || directingFile == null ||
+        directingFileSrc == "" || directingFileSrc == null
+    ) {
         window.location = "https://picky02-ji.github.io/";
     }
 
     /* CONVERT TO HTML */
-    getMarkdownContentWithSource(sourceType, directingFile + ".md");
+    getMarkdownContentWithSource(sourceType, directingFileSrc + "/" + directingFile + ".md");
 }
 
 /* ASK FOR IF THE CONTENT IS NOT LOAD AFTER A WHILE */

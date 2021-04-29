@@ -1,0 +1,49 @@
+a {
+    color:#61c47e;
+    text-decoration: none;
+	letter-spacing: 1px;
+	border-bottom: 1px solid #61c47e;
+}
+
+body {
+	background-color: rgba(0, 0, 0, 0.829);
+    font-size: 20px;
+} 
+
+h3 {
+	color: rgb(156, 165, 252);
+	letter-spacing: 1px;
+}
+
+h5 {
+	color: #aaa;
+	letter-spacing: 1px;
+}
+
+h4 {
+	color: #fff;
+	letter-spacing: 1px;
+}
+
+ul {
+
+}
+
+ul li {
+	color: #61c47e;
+	letter-spacing: 1px;
+	background: linear-gradient(90deg, #3f3f3fff, #3f3f3f00);
+	padding: 4px 6px;
+	border-radius: 4px 0px 0px 4px;
+	border-bottom: 2px solid #61c47e;
+	transition-duration: 0.1s;
+}
+
+ul li:hover {
+	background: linear-gradient(90deg, #4f4f4fff, #4f4f4fff);
+	border-radius: 4px 4px 4px 4px;
+}
+
+li::marker {
+	unicode-bidi: isolate-override;
+}

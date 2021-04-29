@@ -58,7 +58,7 @@ h1 {
 }
 
 h3 {
-    border-left: 6px solid rgb(255, 187, 0);
+    border-left: 6px solid #61c47e;
     padding-left: 6px;
     letter-spacing: 1px;
     margin-top: 20px;
@@ -96,8 +96,8 @@ pre code {
 
 a {
     text-decoration: none;
-    color: rgb(255, 187, 0);
-    border-bottom: 1px solid rgb(255, 187, 0);
+    color: #61c47e;
+    border-bottom: 1px solid #61c47e;
     text-align: center;
 }
 
