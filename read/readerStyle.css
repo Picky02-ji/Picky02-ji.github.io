@@ -141,6 +141,10 @@ tr {
     padding: 4px;
 }
 
+img {
+    max-width: 100%;
+}
+
 div#footer {
     background: #000;
     padding: 20px;
