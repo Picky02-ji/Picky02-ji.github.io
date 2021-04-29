@@ -28,10 +28,10 @@ function getMarkdownContentWithSource(sourceType, fileName) {
     var directedURL;
     switch (sourceType) {
     case "local":
-        directedURL = "https://Picky02-ji.github.io/texts/";
+        directedURL = "https://Picky02-ji.github.io/writings/";
         break;
     case "gitRaw":
-        directedURL = "https://raw.githubusercontent.com/Picky02-ji/Picky02-ji.github.io/main/texts/";
+        directedURL = "https://raw.githubusercontent.com/Picky02-ji/Picky02-ji.github.io/main/writings/";
         break;
     }
 
