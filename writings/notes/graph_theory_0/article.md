@@ -53,7 +53,7 @@
 
 设无向图G=＜V,E＞，它有n个顶点V =＜v1,v2,...vn＞，如果aij表示vi和vj之间的边数，则n阶方阵称为无向图G的邻接矩阵。
 
-![img](https://github.com/Picky02-ji/Picky02-ji.github.io/blob/main/writings/notes/graph_theory_0/images/save_share_review_picture_1621663942.jpeg)
+![img](https://github.com/Picky02-ji/Picky02-ji.github.io/blob/main/writings/notes/graph_theory_0/images/save_share_review_picture_1621673458(1).jpeg)
 
 ![A(G1)](https://github.com/Picky02-ji/Picky02-ji.github.io/blob/main/writings/notes/graph_theory_0/images/save_share_review_picture_1621651101(1).jpeg)    
 
