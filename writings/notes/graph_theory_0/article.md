@@ -68,7 +68,7 @@
 
 #### 计算两个结点之间通道数目
 
-设G是具有结点顺序为v1、v2、...、vn的图（可以是无向图、有向图、多重图、带圈图），其--邻接矩阵--为A（G），则矩阵Y =(A（G）)k中的元素yij表示结点vi到vj长度为k的通道数目。
+设G是具有结点顺序为v1、v2、...、vn的图（可以是无向图、有向图、多重图、带圈图），其**邻接矩阵**为A（G），则矩阵Y =(A（G）)k中的元素yij表示结点vi到vj长度为k的通道数目。
 
 ![Y=A^2](https://github.com/Picky02-ji/Picky02-ji.github.io/blob/main/writings/notes/graph_theory_0/images/save_share_review_picture_1621664916.jpeg)
 
