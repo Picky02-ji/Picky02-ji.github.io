@@ -8,9 +8,11 @@
 
 图G（graph）是一个二元组，记作G=＜V,E＞，其中V ={v1,v2,...vn}为非空点集，E={e1,e2...em}为边集。
 
+![graph](https://github.com/Picky02-ji/Picky02-ji.github.io/blob/main/writings/notes/graph_theory_0/images/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202021-05-22%20160147.png)
+
 ### 图的性质：
 
- 设G是任意图，v为G的任一结点，与结点v关联的边数称为v的度数（degree），记作deg（v）。
+设G是任意图，v为G的任一结点，与结点v关联的边数称为v的度数（degree），记作deg（v）。
 
 设D是任意有向图，v为G的任一结点，射入v的边数称为v的入度（in-degree），记作deg+（v），射出v的边数称为v的出度（out-degree），记作deg−（v）。
 
@@ -42,7 +44,7 @@
 
 ## 二、图的矩阵表示
 
-### 邻接矩阵
+### 1. 邻接矩阵
 
 #### 无向图的邻接矩阵
 
@@ -63,7 +65,7 @@
 #####
 
 
-### 关联矩阵
+### 2. 关联矩阵
 
 #### 无向图的关联矩阵
 
@@ -78,7 +80,7 @@
 
 ![form](https://github.com/Picky02-ji/Picky02-ji.github.io/blob/main/writings/notes/graph_theory_0/images/save_share_review_picture_1621664343.jpeg)
 
-### 可达性矩阵
+### 3. 可达性矩阵
 
 #### 计算两个结点之间通道数目
 
