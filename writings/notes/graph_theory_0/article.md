@@ -39,11 +39,15 @@
 
 #### 无向图的邻接矩阵
 
-设无向图G=＜V,E＞，它有n个顶点V =＜v1,v2,...vn＞，如果aij表示vi和vj之间的边数，则n阶方阵称为无向图G的邻接矩阵。![]()
+设无向图G=＜V,E＞，它有n个顶点V =＜v1,v2,...vn＞，如果aij表示vi和vj之间的边数，则n阶方阵称为无向图G的邻接矩阵。
+![img](https://github.com/Picky02-ji/Picky02-ji.github.io/blob/main/writings/notes/graph_theory_0/images/save_share_review_picture_1621663942.jpeg)
+![M(D)](https://github.com/Picky02-ji/Picky02-ji.github.io/blob/main/writings/notes/graph_theory_0/images/save_share_review_picture_1621664347.jpeg)    
 
 #### 有向图的邻接矩阵
 
-设有向图G=＜V,E＞，它有n个顶点V =＜v1,v2,...vn＞，如果aij表示以vi为起点vj为终点的有向边的边数，则n阶方阵称为有向图G的邻接矩阵。![]()
+设有向图G=＜V,E＞，它有n个顶点V =＜v1,v2,...vn＞，如果aij表示以vi为起点vj为终点的有向边的边数，则n阶方阵称为有向图G的邻接矩阵。
+![img](https://github.com/Picky02-ji/Picky02-ji.github.io/blob/main/writings/notes/graph_theory_0/images/save_share_review_picture_1621664345.jpeg)   
+![A(G2)](https://github.com/Picky02-ji/Picky02-ji.github.io/blob/main/writings/notes/graph_theory_0/images/save_share_review_picture_1621663432.jpeg)
 
 #####
 
@@ -51,19 +55,23 @@
 ### 关联矩阵
 
 #### 无向图的关联矩阵
-设无向图G=＜V,E＞，它有n个顶点V =＜v1,v2,...vn＞,m条边E=＜e1,e2,...em＞，如果 bij表示点 vi与边 ej关联的次数，则 n×m 矩阵称为无向图 G 的关联矩阵。![]()
+设无向图G=＜V,E＞，它有n个顶点V =＜v1,v2,...vn＞,m条边E=＜e1,e2,...em＞，如果 bij表示点 vi与边 ej关联的次数，则 n×m 矩阵称为无向图 G 的关联矩阵。
+![img](https://github.com/Picky02-ji/Picky02-ji.github.io/blob/main/writings/notes/graph_theory_0/images/save_share_review_picture_1621663947.jpeg)
+![]()
 
 #### 有向图的关联矩阵
 
 设有向图D=＜V,E＞，它有 n 个顶点V =＜v1,v2,...vn＞,m 条有向边E=＜e1, e2,...em＞，如果 mij表示点 vi与边 ej关联的次数，则n× m矩阵M（D）=（mi）j n×m称为有向图 G的关联矩阵，其中：
-![]()
+![form](https://github.com/Picky02-ji/Picky02-ji.github.io/blob/main/writings/notes/graph_theory_0/images/save_share_review_picture_1621664343.jpeg)
 
 ### 可达性矩阵
 
 #### 计算两个结点之间通道数目
 
-设G是具有结点顺序为v1、v2、...、vn的图（可以是无向图、有向图、多重图、带圈图），其邻接矩阵为A（G），则矩阵Y =(A（G）)k中的元素yij表示结点vi到vj长度为k的通道数目。
+设G是具有结点顺序为v1、v2、...、vn的图（可以是无向图、有向图、多重图、带圈图），其--邻接矩阵--为A（G），则矩阵Y =(A（G）)k中的元素yij表示结点vi到vj长度为k的通道数目。
 
-![]()
+![Y=A^2](https://github.com/Picky02-ji/Picky02-ji.github.io/blob/main/writings/notes/graph_theory_0/images/save_share_review_picture_1621664916.jpeg)
+
+如上图的Y矩阵的某个相应位置Yij即为vi到vj的两步的通道数目。
 
 由于这种方法极不方便，故引入可达性矩阵
