@@ -61,7 +61,7 @@
 
 设有向图G=＜V,E＞，它有n个顶点V =＜v1,v2,...vn＞，如果aij表示以vi为起点vj为终点的有向边的边数，则n阶方阵称为有向图G的邻接矩阵。
 
-![img](https://github.com/Picky02-ji/Picky02-ji.github.io/blob/main/writings/notes/graph_theory_0/images/save_share_review_picture_1621664345.jpeg)   
+![img](https://github.com/Picky02-ji/Picky02-ji.github.io/blob/main/writings/notes/graph_theory_0/images/save_share_review_picture_1621673674(1).jpeg)   
 
 ![A(G)](https://github.com/Picky02-ji/Picky02-ji.github.io/blob/main/writings/notes/graph_theory_0/images/save_share_review_picture_1621672983(1).jpeg)
 
