@@ -86,6 +86,10 @@
 
 ![form](https://github.com/Picky02-ji/Picky02-ji.github.io/blob/main/writings/notes/graph_theory_0/images/save_share_review_picture_1621664343.jpeg)
 
+![img](https://github.com/Picky02-ji/Picky02-ji.github.io/blob/main/writings/notes/graph_theory_0/images/save_share_review_picture_1621664345.jpeg)
+
+![M(D)](https://github.com/Picky02-ji/Picky02-ji.github.io/blob/main/writings/notes/graph_theory_0/images/save_share_review_picture_1621664347.jpeg)
+
 ### 3. 可达性矩阵
 
 #### 计算两个结点之间通道数目
