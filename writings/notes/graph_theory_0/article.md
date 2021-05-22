@@ -74,8 +74,9 @@
 
 设无向图G=＜V,E＞，它有n个顶点V =＜v1,v2,...vn＞,m条边E=＜e1,e2,...em＞，如果 bij表示点 vi与边 ej关联的次数，则 n×m 矩阵称为无向图 G 的关联矩阵。
 
+![img](https://github.com/Picky02-ji/Picky02-ji.github.io/blob/main/writings/notes/graph_theory_0/images/save_share_review_picture_1621663942.jpeg)
+
 ![img](https://github.com/Picky02-ji/Picky02-ji.github.io/blob/main/writings/notes/graph_theory_0/images/save_share_review_picture_1621663947.jpeg)
-![]()
 
 #### 有向图的关联矩阵
 
